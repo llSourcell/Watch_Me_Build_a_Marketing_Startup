@@ -1,0 +1,56 @@
+{
+  "React": {
+    "prefix": "react",
+    "body": [
+      "import React from 'react';",
+      "import { withStyles } from '@material-ui/core/styles';",
+      "",
+      "const styles = theme => ({",
+      "  root: {}",
+      "});",
+      "",
+      "function ${1:Component}({ classes: s, ...props }) {",
+      "  return (",
+      "    <${2:div} className={s.root}>",
+      "      ${3:body}$0",
+      "    </${2:div}>",
+      "  );",
+      "}",
+      "",
+      "export default withStyles(styles)(${1:Component});",
+      ""
+    ],
+    "description": "React Component"
+  },
+  "Relay Fragment Container": {
+    "prefix": "relay",
+    "body": [
+      "import React from 'react';",
+      "import { withStyles } from '@material-ui/core/styles';",
+      "import { graphql, createFragmentContainer } from 'react-relay';",
+      "",
+      "const styles = theme => ({",
+      "  root: {}",
+      "});",
+      "",
+      "function ${1:Component}({ classes: s, data, ...props }) {",
+      "  return (",
+      "    <${2:div} className={s.root}>",
+      "      ${3:body}$0",
+      "    </${2:div}>",
+      "  );",
+      "}",
+      "",
+      "export default withStyles(styles)(createFragmentContainer(",
+      "  ${1:Component},",
+      "  graphql`",
+      "    fragment ${1:Component} on Query {",
+      "      id",
+      "    }",
+      "  `,",
+      "));",
+      ""
+    ],
+    "description": "Relay Fragment Container"
+  }
+}

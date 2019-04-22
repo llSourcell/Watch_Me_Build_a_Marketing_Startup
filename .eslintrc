@@ -1,0 +1,4 @@
+{
+  "extends": ["eslint-config-react-app", "prettier"],
+  "plugins": ["flowtype"]
+}
