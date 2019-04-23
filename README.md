@@ -1,6 +1,6 @@
 ## Overview
 
-This is the code for this video on Youtube by Siraj Raval called "Watch Me Build a Marketing Startup". This is an app called VectorFunnel. It lets sales & marketing teams upload a CSV file of their lead and get a returned automated lead score for each of them. This helps them save time by allowing them to focus on the leads that are most likely to convert, instead of manually trying all of them. This is a data driven approach to sales and marketing.
+This is the code for [this](https://www.youtube.com/watch?v=6oM3N6PRFz8&feature=youtu.be) video on Youtube by Siraj Raval called "Watch Me Build a Marketing Startup". This is an app called VectorFunnel. It lets sales & marketing teams upload a CSV file of their lead and get a returned automated lead score for each of them. This helps them save time by allowing them to focus on the leads that are most likely to convert, instead of manually trying all of them. This is a data driven approach to sales and marketing.
 
 ## Dependencies
 
