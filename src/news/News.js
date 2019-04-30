@@ -247,19 +247,14 @@ model.fit(data2, labels, {
 
   <br />
 
-
-
-  <div className="container">
-  
+  <center>
     <CSVReader
-      cssClass="file-upload"
-      label=""
-      inputStyle={{color: 'red'}}
-      onFileLoaded={handleForce}
-    />
-
-  </div>
-<center>
+        cssClass="csv-reader-input"
+        label="Upload CSV"
+        onFileLoaded={handleForce}
+        inputId="ObiWan"
+        inputStyle={{color: 'red'}}
+      />
    <Button
           className={s.button}
           color="inherit"
